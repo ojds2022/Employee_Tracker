@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const db = require('./database');
+const db = require('./config/connection');
 
 async function userDatabaseSearch() {
     const { option } = await inquirer.prompt([
@@ -7,7 +7,14 @@ async function userDatabaseSearch() {
             type: 'list',
             name: 'option',
             message: 'What would you like to do?',
-            choices: ['View All Employees', 'Update Employee Role', 'View All Roles', 'Add Role', 'View All Departments', 'Add Department', 'Exit']
+            choices: [
+                'View All Employees', 
+                'Update Employee Role', 
+                'View All Roles', 'Add Role', 
+                'View All Departments', 
+                'Add Department', 
+                'Exit'
+            ]
         }
     ]);
 
