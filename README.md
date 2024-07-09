@@ -17,9 +17,10 @@ This project utilizes npm for package management. Dependencies for this app incl
 ## Usage
 First, users should make sure that a MySQL server is running on their computer. Commands can vary, but if it was installed using Homebrew, the command 'brew service start mysql', ran in the terminal, will start a MySQL server. Users can then initiate this app by running 'node index.js' in the terminal. After that, users can use the arrow keys and the enter key to interact with the database.
 
+A video of the app being used can be seen here: https://drive.google.com/file/d/1kTTNkqEp0Ho1W9r5u1l_x6-6aLzAhLoH/view
+
 ## Liscense
 None.
-
 
 ## Contributing
 There are no contribution guidelines.
