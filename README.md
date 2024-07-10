@@ -19,7 +19,7 @@ First, users should make sure that a MySQL server is running on their computer. 
 
 A video of the app being used can be seen here: https://drive.google.com/file/d/1kTTNkqEp0Ho1W9r5u1l_x6-6aLzAhLoH/view
 
-## Liscense
+## License
 None.
 
 ## Contributing
